@@ -15,3 +15,4 @@
 # Requirements for running PerfKit Benchmarker on AWS.
 awscli>=1.19.75
 colorama==0.3.7
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
