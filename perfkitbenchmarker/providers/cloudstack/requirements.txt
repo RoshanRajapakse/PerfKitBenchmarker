@@ -14,3 +14,4 @@
 
 # Requirements for running PerfKit Benchmarker on CloudStack.
 csapi>=0.0.7
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
