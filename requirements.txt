@@ -34,3 +34,4 @@ requests
 # unlike setup.py requirements.txt cannot require a Python version AFAICT
 # this hack requires a non-existent package when Python is less than 3.9
 PerfkitBenchmarker_requires_Python_39;python_version<"3.9"
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
