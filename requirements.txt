@@ -21,7 +21,7 @@ packaging
 pandas>=1.1.5
 PyYAML==5.4.1
 pint
-numpy>=1.16.5
+numpy>=1.22.2
 contextlib2>=0.5.1
 six>=1.13.0
 pywinrm
@@ -34,3 +34,5 @@ requests
 # unlike setup.py requirements.txt cannot require a Python version AFAICT
 # this hack requires a non-existent package when Python is less than 3.9
 PerfkitBenchmarker_requires_Python_39;python_version<"3.9"
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
