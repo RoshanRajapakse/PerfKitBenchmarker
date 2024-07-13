@@ -1,6 +1,6 @@
 #Dockerfile to use with Docker provider
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 
 RUN apt-get update && apt-get install -y ssh
 RUN apt-get install -y sudo iputils-ping
