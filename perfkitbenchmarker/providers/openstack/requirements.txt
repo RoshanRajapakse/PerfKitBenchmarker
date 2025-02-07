@@ -15,3 +15,4 @@
 # Requirements for running PerfKitBenchmarker on OpenStack.
 openstacksdk>=0.9.10
 python-openstackclient>=3.6.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
